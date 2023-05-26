@@ -1,0 +1,75 @@
+body {
+    background-color: #1b1b1f;
+    color: white;
+    font-family: cursive;;
+
+}
+
+.scoreboard {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    font-size: 3rem;
+}
+
+.ingrid {
+    display: flex;
+}
+
+.table {
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    background-color: #ebebeb;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: #12c918;   
+    border: 5px solid #ebebeb;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: #140845;
+}
+
+.power-pellet {
+    background-color: #30d117;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+}
+
+.pinky {
+    background-color: #b5058f;
+}
+
+.inky {
+    background-color: #004f87;
+}
+
+.clyde {
+    background-color: orange;     
+}
+
+.pac-man {
+    background-color: #f2273f;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: #4a4a4a;
+}

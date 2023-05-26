@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+	background: linear-gradient(180deg, #171718, #000000) fixed;
+	background-color:  #302f3e;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#img-box {
+	display: inline;
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+}
+
+#container {
+	display:flex;
+	padding: 35px;
+}
+
+#clock {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 500px;
+	height: 500px;
+	background: #38374a;
+	border-radius: 50%;
+	box-shadow: 10px 50px 70px rgba(0, 0, 0, 0.25);
+	opacity: 0.98;
+}
+
+#clock:hover {
+	box-shadow: 0 28px 40px rgba(0,0,0,0.4), 0 10px 10px rgba(0,0,0,0.2);
+	transition: .5s;
+}
+
+#clock span {
+	position: absolute;
+	inset: 1rem;
+	transform: rotate(calc(30deg * var(--i)));
+	font-size: 2em;
+	color: white;
+}
+
+
+
+#time-box {
+	background-color: #171718;
+	width: 30rem;
+	margin: 250px auto;
+	border-radius: 1em;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#time-box:hover {
+	background-color: #312f5e;
+	box-shadow: 0 28px 40px rgba(0,0,0,0.4), 0 10px 10px rgba(0,0,0,0.2);
+	transition: .5s;
+}
+
+#hours, #minutes, #dots, #seconds {
+	font-size: 5rem;
+	background: linear-gradient(45deg, #fff,  #aaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
