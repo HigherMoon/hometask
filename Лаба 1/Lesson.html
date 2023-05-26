@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Лабораторная работа 1 </title>
+		<style type="text/css">
+		
+		input { 
+			text-align: right; 
+			padding: 0.375rem 0.75rem;
+			font-family: inherit;
+			font-size: 1rem;
+			font-weight: 400;
+			line-height: 1.5;
+			color: #212529;
+			background-color: #fff;
+			background-clip: padding-box;
+			border: 1px solid #bdbdbd;
+			border-radius: 0.25rem;
+			transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		}
+		
+		input[type="text"] {
+			width: 26px;
+		}
+		
+		input:focus {
+			color: #212529;
+			background-color: #fff;
+			border-color: #bdbdbd;
+			outline: 0;
+			box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+		}
+		
+		#printBlock {
+			background-color: #fff;
+			border: 1px solid #bdbdbd;
+			border-radius: 1rem;
+		}
+		
+		div {
+			background-color: #fff;
+			border: 1px solid #bdbdbd;
+			border-radius: 1rem;
+			padding: 5px;
+			margin: 5px 5px;
+			margin-bottom: 15px;
+		}
+		
+		div > div {
+			background-color: #eee;
+		}
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<form name="search" align="center">
+			<input type="text" name="inputA" placeholder="a" > </input>
+		     x<sup>2</sup> + 
+			<input type="text" name="inputB" placeholder="b"> </input>
+			 x +
+			<input type="text" name="inputC" placeholder="c"> </input>
+			= 0 <br><br>
+			<input type="button" name="print" value="Вычислить" />
+		</form>
+		
+		<br><br>
+		
+		<div id="printBlock"></div>
+		
+		<script type = "text/javascript" src="app.js"> </script>
+	</body>
+	
+</html>
